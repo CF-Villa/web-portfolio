@@ -44,7 +44,6 @@ a {
 .nav-menu {
   background-color: rgb(75, 73, 73);
   display: inline-flex;
-  /* muda de flex -> inline-flex */
   gap: 25px;
   align-items: center;
   border-radius: 25px;
@@ -169,7 +168,6 @@ a {
   margin: 20px;
   padding: 10px 20px;
   text-align: center;
-  /*é aqui que centralizo a imagem*/}
 
 .project-grid {
   display: grid;
@@ -198,7 +196,6 @@ a {
   font-size: 14px;} 
   
 
-/*meus liks globais tão em branco, ent específicamente declarei esses como preto*/
 .project-link a {
   display: inline-flex;
   align-items: center;
@@ -221,7 +218,6 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  /* controla a distância entre texto e imagem */}
 
 .educational-card {
   flex: 1;
@@ -252,20 +248,16 @@ a {
   border-color: black;
   border-style: solid;
   margin: auto;
-  /*pra n deixar sobra nas bordas*/
   margin-bottom: 5px;
   padding: 10px 20px;
-  /* espaço só entre texto e borda TOP RIGHT BOTTOM LEFT *sentido horário*/}
 
 #contact-email-box a{
   color: black;}
 
 #contact-email-msg {
   text-align: center;
-  /* Mantenha a mesma fonte do seu site */
   font-size: 14px;
   color: #333;
-  /* Cor escura para o texto, combinando com o resto */
   margin: 0px 0px 200px 0px;}
 
 /* FOOTER SECTION ----------------------------------------------------------------------------------------------------*/
