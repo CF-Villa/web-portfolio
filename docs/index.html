@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Villa - Web Portfolio</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Link Google Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+</head>
+
+<body>
+  <main class="page-container">
+
+  <!-- MENU SECTION -----------------------------------------------------------------------------------------------> 
+
+    <nav class="nav-menu">
+
+      <a href="https://www.linkedin.com/in/christian-villa-042645280/" 
+      target="_blank"  id="site-brand">  Christian Villa  </a>
+
+       <ul class="menu-links">
+        <li><a href="#about-link">Sobre Mim</a></li>
+        <li><a href="#experience-link">Experiências</a></li>
+        <li><a href="#project-link">Projetos</a></li>
+        <li><a href="#educational-link">Formação</a></li>
+        <li><a href="#contact-link">Contato</a></li>
+      </ul>
+
+      <div class="btn-github">
+        <a href="https://github.com/CF-Villa" target="_blank">Acesse meu Github</a>
+      </div>
+
+    </nav>
+
+  <!-- ABOUT SECTION ---------------------------------------------------------------------------------------------------->   
+    <!--o link só funciona com id, tem que colocar # e o id-->
+    <section class="about-section" id="about-link">
+      <div>
+        <img src="assets/foto-golfleet.png" alt="Foto de perfil Christian Villa" id="img-profile-about">
+      </div>
+      <div class="about-content">
+        <p> Olá, eu sou</p>
+        <h1>Christian Villa</h1>
+        <h2 >Aprendiz de Tecnologia</h2>
+        <div>
+          <!--coloco pdf na pasta, -->
+          <a href="assets/curriculo-christian-villa.pdf" target="_blank" class="cta">View CV</a>
+          <!-- mail to: pra dizer que é pra direcionar para um email-->
+          <a href="mailto:christianf.villa@gmail.com" class="cta">Contato</a>
+        </div>
+
+        <div>
+          <!--target blank outra página self mesma página -->
+          <a href="https://github.com/CF-Villa" target="_blank"><img src="assets/github-logo-icon.png" alt="GitHub Icon"
+              class="social-icon"></a>
+
+          <a href="https://www.linkedin.com/in/christian-villa-042645280/" target="_blank">
+            <img src="assets/linkedin-logo-icon.png" alt="LinkedIn Icon" class="social-icon" id="icon-linkedin">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  <!-- EXPERIENCE SECTION --------------------------------------------------------------------------------------------->
+
+    <h2 class="section-heading" id="experience-link">Experiencias</h2>
+    <section class="experience-section">
+      <div class="experience-card">
+        <h3>Aprendiz de Qualidade</h3>
+        <h4>Junho de 2024 - Atual</h4>
+        <p> Atuo como aprendiz em uma empresa de software de rastreamento, Golfleet Tecnologia. Sou responsável por
+          analisar, configurar e validar equipamentos, além de gerenciar registros em Google Planilhas e no ERP Sankhya.
+          Realizo configurações no software, testes de funcionamento, manutenção corretiva e recuperação por meio de
+          firmwares, tools e testes de hardware em jiga.
+          Iniciei executando apenas etapas inicias sob supervisão, mas com desempenho consistente, conquistei autonomia
+          para realizar todo o processo seguindo documentações até a entrega final. Como resultado, contribuí para
+          aumentar a produtividade do trabalho em dupla de 600 para 900 equipamentos/mês, mantendo ainda 100 unidades em
+          estoque, mesmo atuando em meio período.</p>
+      </div>
+      <div>
+        <img src="assets/foto-golfleet.png" alt="Foto de perfil Christian Villa" id="img-profile-experience">
+      </div>
+    </section>
+
+    
+
+  <!-- PROJECT SECTION -------------------------------------------------------------------------------------------->   
+
+    <h2 class="section-heading" id="project-link">Projetos</h2>
+    <section class="projects-section">
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/work-in-progress.jpg" alt="exemplo projeto 1" class="project-img">
+          <h3>Projeto 1</h3>
+          <p class="project-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus velit nobis voluptate
+            mollitia.</p>
+          <div class="project-link">
+            <a href="">View Project Demo</a>
+            <a href=""> GitHub Repo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/work-in-progress.jpg" alt="exemplo projeto 2" class="project-img">
+          <h3>Projeto 2</h3>
+          <p class="project-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus velit nobis voluptate
+            mollitia.
+          <div class="project-link">
+            <a href="">View Project Demo</a>
+            <a href="">GitHub Repo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/work-in-progress.jpg" alt="exemplo projeto 3" class="project-img">
+          <h3>Projeto 3</h3>
+          <p class="project-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus velit nobis voluptate
+            mollitia.
+          <div class="project-link">
+            <a href="">View Project Demo</a>
+            <a href="">GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- EDUCATIONAL SECTION  ---------------------------------------------------------------------------------------->   
+
+    <h2 class="section-heading" id="educational-link">Formação</h2>
+    <section class="educational-section">
+      <div>
+        <img src="assets/programming-img.jpg" alt="Foto de perfil Christian Villa" id="img-profile-educational">
+      </div>
+      <div class="educational-card">
+        <h3>Análise e Desenvolvimento de Sistemas</h3>
+        <h4>Universidade Positivo | Conclusão: Dezembro de 2026</h4>
+        <p>  Raciocínio lógico e programação, aplicando conceitos de lógica por meio de linguagens como HTML5, CSS3, JavaScript e C. Compreensão de documentações técnicas de projetos e metodologias ágeis, incluindo a criação de diagramas UML. Além disso, adquiri conhecimento na aplicação do Manifesto Ágil.</p>
+      </div>
+      
+    </section>
+
+  <!-- CONTACT SECTION ----------------------------------------------------------------------------------------------> 
+
+    <h2 class="section-heading" id="contact-link">Entre em Contato</h2>
+    <nav id="contact-email-box">
+      <div>
+        <a href="mailto:christianf.villa@gmail.com">christianf.villa@gmail.com</a>
+      </div>
+    </nav>
+
+    <!--strong pk realmente de forte importancia, diferente de <b> -->
+    <div id="contact-email-msg">
+      <p>Caso seu e-mail não esteja configurado para aceitar links externos, copie e cole o endereço:
+        <strong>christianf.villa@gmail.com</strong></p>
+    </div>
+
+    <!--depois tirar mensagem vísivel e criar popup em Js avisando usuário que o gmail dele não está configurado para aceitar links, pede pra copiar e e-mail e explica pra ele como configurar-->
+
+
+    <!-- FOOTER SECTION ----------------------------------------------------------------------------------- -->
+     
+    <footer class="footer">
+  <ul class="menu-links footer-links">
+    <li><a href="#about-link">Sobre Mim</a></li>
+    <li><a href="#experience-link">Experiências</a></li>
+    <li><a href="#project-link">Projetos</a></li>
+    <li><a href="#educational-link">Formação</a></li>
+    <li><a href="#contact-link">Contato</a></li>
+  </ul>
+</footer>
+  </main>
+</body>
+</html>
